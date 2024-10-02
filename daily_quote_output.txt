@@ -1,14 +1,4 @@
-“To be, or not to be, that is the question.” – William Shakespeare
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
-“That which does not kill us makes us stronger.” – Friedrich Nietzsche
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
+All the output from 01-daily_quote.py will be redirected to this file with cron jobs set up.
+
 “In the middle of difficulty lies opportunity.” – Albert Einstein
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
-“That which does not kill us makes us stronger.” – Friedrich Nietzsche
-“That which does not kill us makes us stronger.” – Friedrich Nietzsche
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
-“In the middle of difficulty lies opportunity.” – Albert Einstein
-“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt
-“That which does not kill us makes us stronger.” – Friedrich Nietzsche
-“I think, therefore I am.” – René Descartes
+
