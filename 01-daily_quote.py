@@ -15,19 +15,26 @@ import random
 from datetime import date
 
 
-quotes = [
-    # Create a list of quotes here
+quotes = [ 
+    '“To be, or not to be, that is the question.” – William Shakespeare', 
+    '“I think, therefore I am.” – René Descartes', 
+    '“The only thing we have to fear is fear itself.” – Franklin D. Roosevelt',
+    '“That which does not kill us makes us stronger.” – Friedrich Nietzsche',
+    '“In the middle of difficulty lies opportunity.” – Albert Einstein',
+    '"Hello everyone, my name is mimi." - Mitzy Zhu(my cat)'    
 ]
 
 def get_quote_of_the_day(quotes):
-    todays_quote = None
-
-    # Your code here
-    
+    day = date.today().toordinal()
+    random.seed(day)
+    todays_quote = random.choice(quotes) 
     return todays_quote
 
 if __name__ == "__main__":
     print(get_quote_of_the_day(quotes))
 
+print("0 8 * * * /Usr/bin/python3 /Users/jenniferzhu/03-data-structures-jengithubb/01-daily_quote.py >> /Users/jenniferzhu/03-data-structures-jengithubb/daily_quote_output.txt")
 # Cron job (add this to your crontab):
 # 0 8 * * * /usr/bin/python3 /path/to/quote_generator.py >> /path/to/daily_quote.txt
+
+

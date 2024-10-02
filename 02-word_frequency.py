@@ -21,9 +21,18 @@ import sys
 
 def word_frequency(text):
     frequencies = {} # Dictionary to store word frequencies
-
-    # Your code here
-    
+    delim = "\\'!.#$%&()*+,-./:;<=>?@[]^_`{|}~\""
+    text = text.lower()
+    for i in delim:
+        text = text.replace(i, ' ')   
+    words = text.split()
+    words = sorted(words)
+    for word in words:
+        if word in frequencies:
+            frequencies[word] += 1
+        else:
+            frequencies[word] = 1
+            
     return frequencies
 
 # Scaffold for opening a file and running word_frequency() on the contents
