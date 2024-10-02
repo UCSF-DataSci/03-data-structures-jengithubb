@@ -33,8 +33,7 @@ def get_quote_of_the_day(quotes):
 if __name__ == "__main__":
     print(get_quote_of_the_day(quotes))
 
-print("0 8 * * * /Usr/bin/python3 /Users/jenniferzhu/03-data-structures-jengithubb/01-daily_quote.py >> /Users/jenniferzhu/03-data-structures-jengithubb/daily_quote_output.txt")
-# Cron job (add this to your crontab):
-# 0 8 * * * /usr/bin/python3 /path/to/quote_generator.py >> /path/to/daily_quote.txt
 
+# Cron job (add this to your crontab):
+# 0 8 * * * /Usr/bin/python3 /Users/jenniferzhu/03-data-structures-jengithubb/01-daily_quote.py >> /Users/jenniferzhu/03-data-structures-jengithubb/daily_quote_output.txt"
 
